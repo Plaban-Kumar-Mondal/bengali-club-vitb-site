@@ -1,5 +1,5 @@
 import styles from "../../styles/Home.module.css";
-import SharodUtsav22 from "../event/sharod_utsav_22";
+import SharodUtsav22Home from "../event/sharod_utsav_22/sharod_utsav_home";
 
 const HomeComponent = () => {
   return (
@@ -13,7 +13,7 @@ const HomeComponent = () => {
         </p>
       </section>
       <section>
-        <SharodUtsav22 />
+        <SharodUtsav22Home />
       </section>
     </>
   );

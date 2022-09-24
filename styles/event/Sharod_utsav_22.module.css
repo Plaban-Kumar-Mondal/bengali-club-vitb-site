@@ -1,15 +1,113 @@
+/* Home Page Event Section */
+
 .eventBody {
-  background: rgb(255, 215, 0);
-  background: linear-gradient(
-    90deg,
-    rgba(255, 215, 0, 1) 0%,
-    rgba(197, 169, 24, 1) 50%,
-    rgba(167, 144, 23, 1) 100%
-  );
+  min-height: 50vh;
+  background: #c4122f;
   color: white;
-  margin-top: 5rem;
   padding: 2rem 1.5rem;
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.currentEvent {
+  font-size: 1.8rem;
+  padding: 1.2rem;
+  border-bottom: 1px solid white;
+}
+
+.eventDetails {
+  font-family: "Samarkan", sans-serif;
+  font-size: 2.6rem;
+}
+
+.eventBtn {
+  margin: 2rem;
+  padding: 0.8rem 2rem;
+  border-radius: 10px;
+  background-color: #ffd84d;
+  color: black;
+}
+
+/* Event Page */
+
+.eventPageBody {
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(255, 215, 0, 1) 40%,
+    rgba(255, 164, 94, 1) 100%
+  );
+}
+
+.eventPageText {
+  font-size: 1.2rem;
+}
+
+.eventPageHeader {
+  text-align: center;
+  font-family: "Samarkan", sans-serif;
+  font-size: 4rem;
+  margin: 0rem 3.5rem 1rem 3.5rem;
+  padding-top: 1.5rem;
+  /* background-color: #c4122f; */
+}
+
+.sharodSpan {
+  color: #c4122f;
+}
+
+.bochorSpan {
+  color: #c4122f;
+}
+
+.eventPageText {
+  margin-left: 2em;
+  width: 30vw;
+}
+
+.eventPageIntro {
+  /* background-color: #36e4f0; */
+  padding: 0rem 1rem 4rem 1rem;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+.eventPageSchedule {
+  /* background-color: #f05936; */
+  padding: 4rem 1rem;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+.eventPageMenu {
+  padding: 4rem 1rem;
+  display: flex;
+  justify-content: center;
+}
+
+.eventPageContact {
+  padding: 4rem 1rem;
+  font-size: 1.2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.eventContactHeader {
+  font-weight: 500;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid black;
+}
+
+.eventPageContact > div {
+  width: 50vw;
+}
+
+.contactContainer {
+  display: flex;
+  justify-content: space-between;
 }

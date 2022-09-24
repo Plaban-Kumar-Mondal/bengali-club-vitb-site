@@ -13,9 +13,11 @@ const Footer = () => {
           - 466114
         </p>
       </div>
-      <div>
+      <div className={styles.socialMedia}>
         <h4>Follow Us</h4>
-        <p>Instagram</p>
+        <a href="https://instagram.com/bengali_club_vitb?igshid=YmMyMTA2M2Y=">
+          <i className="fab fa-instagram"></i>
+        </a>
       </div>
       <div>
         <Image
