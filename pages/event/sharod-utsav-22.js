@@ -35,6 +35,12 @@ const SharodUtsav22 = () => {
         </div>
       </section>
       <section className={styles.eventPageSchedule}>
+        <Image
+          src={scheduleImg}
+          alt="Event schedule for sharod utsav"
+          width={540}
+          height={540}
+        />
         <div className={`${styles.eventPageText}`}>
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum
           ad ipsa illum cupiditate nostrum pariatur, voluptas aliquam dolore
@@ -49,12 +55,6 @@ const SharodUtsav22 = () => {
           ipsum, dolore, facere dolorum est animi quos laboriosam. Sint
           accusamus ducimus commodi.
         </div>
-        <Image
-          src={scheduleImg}
-          alt="Event schedule for sharod utsav"
-          width={540}
-          height={540}
-        />
       </section>
       <section className={styles.eventPageMenu}>
         <Image

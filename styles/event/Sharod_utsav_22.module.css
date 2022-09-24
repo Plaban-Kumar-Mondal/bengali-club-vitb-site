@@ -68,7 +68,6 @@
 }
 
 .eventPageIntro {
-  /* background-color: #36e4f0; */
   padding: 0rem 1rem 4rem 1rem;
   display: flex;
   justify-content: center;
@@ -76,10 +75,10 @@
 }
 
 .eventPageSchedule {
-  /* background-color: #f05936; */
   padding: 4rem 1rem;
   display: flex;
   justify-content: center;
+  flex-direction: row-reverse;
   margin-bottom: 2rem;
 }
 
@@ -110,4 +109,37 @@
 .contactContainer {
   display: flex;
   justify-content: space-between;
+}
+
+/* Responsive Section */
+
+@media (max-width: 699px) {
+  /* Home Page Event Section */
+  .eventDetails {
+    text-align: center;
+  }
+
+  /* Event Page */
+  .eventPageHeader {
+    font-size: 2.4rem;
+    margin: 0rem 2rem;
+  }
+
+  .eventPageIntro,
+  .eventPageSchedule,
+  .eventPageMenu {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 1rem;
+  }
+
+  .eventPageText {
+    text-align: center;
+    margin: 0em;
+    width: 100%;
+  }
+
+  .eventPageContact > div {
+    width: 70vw;
+  }
 }

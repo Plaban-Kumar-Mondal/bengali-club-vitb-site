@@ -19,7 +19,7 @@ const Footer = () => {
           <i className="fab fa-instagram"></i>
         </a>
       </div>
-      <div>
+      <div className={styles.uniLogo}>
         <Image
           src={universityLogo}
           width={230}

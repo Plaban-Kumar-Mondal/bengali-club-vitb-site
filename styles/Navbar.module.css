@@ -21,3 +21,15 @@
 .navbarItem {
   list-style: none;
 }
+
+@media (max-width: 699px) {
+  .navbar {
+    padding: 0rem 0.5rem;
+  }
+
+  .navbarItemContainer {
+    min-width: 50%;
+    display: flex;
+    justify-content: space-between;
+  }
+}

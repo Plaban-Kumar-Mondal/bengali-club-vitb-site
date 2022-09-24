@@ -1,4 +1,5 @@
 .footer {
+  position: relative;
   min-height: 30vh;
   background-color: #000e1e;
   color: white;
@@ -14,4 +15,17 @@
 
 .socialMedia > a {
   font-size: 1.6rem;
+}
+
+@media (max-width: 699px) {
+  .footer {
+    min-height: 32vh;
+    align-items: flex-start;
+  }
+  .uniLogo {
+    position: absolute;
+    bottom: 5%;
+    left: 50%;
+    transform: translate(-50%);
+  }
 }
