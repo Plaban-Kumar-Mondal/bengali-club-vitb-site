@@ -19,19 +19,13 @@ const SharodUtsav22 = () => {
           height={500}
         />
         <div className={`${styles.eventPageText}`}>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia ipsa
-          maxime accusantium, amet fugit placeat laborum dicta incidunt
-          necessitatibus officia? Inventore ipsum eligendi tenetur voluptate
-          natus earum veritatis delectus sed provident dignissimos. A explicabo
-          ad culpa quam repellat deleniti molestiae dignissimos. Soluta
-          explicabo, doloribus, quaerat facere, nihil temporibus quisquam harum
-          eos fuga non officia maxime? Consequuntur totam doloremque aliquam
-          animi nesciunt deserunt cupiditate facilis assumenda fuga voluptatem
-          debitis eligendi consectetur quam, ullam dolores sint provident autem
-          repudiandae nemo voluptate optio natus asperiores, delectus
-          accusantium! Excepturi sequi veritatis dolor debitis quos! Non ab
-          eligendi blanditiis numquam ducimus ipsam adipisci suscipit
-          doloremque!
+          West Bengal is one of the most culturally flourished states and has
+          its roots in Bengali literature, music, best arts, drama, and cinema.
+          Whenever we think of Bengali culture, Rabindra sangeet, the sound of a
+          conch shell(shankha), and the fragrance of dhunu comes to our mind.
+          The Bengali club is showcasing one of the most popular cultures,
+          Sharad Utsav popularly known as Durga Puja, on the 30th of September
+          2022 on the grounds of VIT Bhopal.
         </div>
       </section>
       <section className={styles.eventPageSchedule}>
@@ -42,18 +36,20 @@ const SharodUtsav22 = () => {
           height={540}
         />
         <div className={`${styles.eventPageText}`}>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum
-          ad ipsa illum cupiditate nostrum pariatur, voluptas aliquam dolore
-          quod sunt iure, qui est odio, labore maxime. Animi, culpa. Nulla eum
-          aut necessitatibus dolores magnam esse vitae, similique nesciunt,
-          saepe ex cumque velit fugiat, accusantium provident dignissimos
-          molestias omnis inventore explicabo quia facere sapiente? Quam ullam,
-          sequi voluptate voluptatum unde aliquam reiciendis quae quos
-          repellendus, expedita asperiores eveniet beatae aliquid sed dolores!
-          Nemo, eaque? Deserunt voluptate iure suscipit id totam aliquam
-          aspernatur, veniam rerum accusantium atque laborum mollitia molestiae
-          ipsum, dolore, facere dolorum est animi quos laboriosam. Sint
-          accusamus ducimus commodi.
+          The Sharad Utsav 2022 would include a procession, singing drama, folk
+          dance, fusion dance, and fashion show to exhibit the Bengali culture
+          from different eras. The Utsav starts with the procession from 9 am at
+          the main gate of VIT Bhopal. It is then followed by events at the
+          auditorium from 10 am. The event starts with an introduction to the
+          event followed by kurashikaru(folk dance) which would last till 10:15
+          am. The event will proceed with drama till 10:40 am. The members of
+          the Bengali club would present melodious songs in front of the people
+          till 11 am. Following that is the Fashion show, portraying how the
+          Bengali culture evolved through different eras till 11:20 am. The
+          occasion inside the auditorium will finish with a fusion dance lasting
+          until 11:30 am. The further events would be conducted in the parking
+          lot or in front of the MPH(Multi-Purpose Hall)which would include our
+          characteristic Dhunuchi dance and cultural jamming.
         </div>
       </section>
       <section className={styles.eventPageMenu}>
@@ -64,15 +60,16 @@ const SharodUtsav22 = () => {
           height={500}
         />
         <div className={`${styles.eventPageText}`}>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aperiam
-          delectus, distinctio ad doloremque quo eligendi, sequi repudiandae
-          doloribus enim itaque alias. Atque ad cupiditate odio aliquam, eaque,
-          numquam, repellat quibusdam consequuntur quia dicta pariatur fugiat
-          consectetur deleniti obcaecati ea voluptates veritatis nulla accusamus
-          quaerat tempora debitis. Molestiae labore, at officiis modi asperiores
-          dignissimos, ad a voluptas, debitis consequuntur explicabo voluptate
-          aperiam veniam adipisci vitae molestias! Aliquid perspiciatis
-          explicabo dolores voluptas?
+          The main attraction of Sharad Utsav 2022 is the food which would have
+          different Bengali delicacies for both veg and non-veg. The food which
+          is served is in the form of a buffet and is unlimited so that people
+          can enjoy Bengali food as much as possible. Veg menu includes achar,
+          beguni,luchi, aloo bhaja steam rice/ veg pulao, dal makhani, Bengali
+          masala aloo dum, Matar paneer, boondi raita, papad, tomato chutney,
+          and moong dal halwa. Non-veg menu includes achar, beguni, luchi, aloo
+          bhaja, steam rice/veg pulao, dal makhani, Bengali chicken kasha,
+          Bengali Katla(fish) Kalia, boondi raita, papad, tomato chutney and
+          moong dal halwa.Mineral water and salad will be served to all.
         </div>
       </section>
       <section className={styles.eventPageContact}>
